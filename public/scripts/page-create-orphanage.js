@@ -29,20 +29,19 @@ map.on("click", (event) => {
 });
 
 //adicionar o campo de fotos
-
 function addPhotoField() {
   const container = document.querySelector("#images");
   const fieldsContainer = document.querySelectorAll(".new-upload");
   const newFieldContainer = fieldsContainer[
     fieldsContainer.length - 1
   ].cloneNode(true);
-  const input = newFieldContainer.children[0];
 
+  const input = newFieldContainer.children[0];
   if (input.value == "") {
     return;
   }
-
   input.value = "";
+
   container.appendChild(newFieldContainer);
 }
 
@@ -67,6 +66,23 @@ function toggleSelec(event) {
   button.classList.add("active");
 
   const input = document.querySelector('[name="open_on_weekends"]');
-
   input.value = button.dataset.value;
+}
+
+function validate(event) {
+  //validar se lat e lng estão preencidos
+  const inputLat = document.querySelector("[name=lat]").value;
+  const inputLng = document.querySelector("[name=lng]").value;
+
+  if (inputLat == "" && inputLng == "") {
+    needsLatAndLng = true;
+  } else {
+    needsLatAndLng = false;
+  }
+
+  //const needsLatAndLng = false;
+  if (needsLatAndLng) {
+    event.preventDefault();
+    alert("Selecione um ponto no mapa");
+  }
 }

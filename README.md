@@ -36,8 +36,6 @@ Happy é uma plataforma que conecta pessoas à casas de acolhimento instituciona
 
 Projeto desenvolvido durante a **NLW - Next Level Week #03** oferecida pela [Rocketseat](https://rocketseat.com.br/) 🚀.
 
----
-
 ## 🚀 Como executar o projeto
 
 Você vai precisar ter instalado em sua máquina as seguintes ferramentas:
@@ -66,8 +64,6 @@ $ node src/server.js
 # O servidor inciará na porta:5500 - acesse http://localhost:5500 
 ```
 
----
-
 ## 🛠 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -81,12 +77,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [SQLite](https://www.sqlite.org/index.html)
 - [Handlebars](https://handlebarsjs.com/)
 
----
-
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web). Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
 
-
 ## 📝 Licença
+
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.

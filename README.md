@@ -32,7 +32,7 @@
 
 ## 💻 Sobre o projeto
 
-Happy é uma plataforma que conecta pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças mais feliz. 
+Happy é uma plataforma que conecta pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças mais feliz 💜. 
 
 Projeto desenvolvido durante a **NLW - Next Level Week #03** oferecida pela [Rocketseat](https://rocketseat.com.br/) 🚀.
 

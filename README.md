@@ -1,7 +1,7 @@
 ## Happy | Leve felicidade para o mundo
 
 <h1 align="center">
-    <img alt="Happy" title="Happy" src="/.github/screenshots/logo.jpg" />
+    <img alt="Happy" title="Happy" src="/.github/screenshots/logo.svg" />
 </h1>
 
 ###  Página inicial
